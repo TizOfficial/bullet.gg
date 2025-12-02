@@ -36,6 +36,20 @@
             animation: backgroundShift 8s infinite ease-in-out;
         }
 
+        .badges {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .badge {
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+        }
+
         @keyframes backgroundShift {
             0%, 100% { opacity: 0.3; }
             50% { opacity: 0.6; }
@@ -407,6 +421,13 @@
         </div>
 
         <h1>DevTim99</h1>
+        <div class="badges">
+        <img class="badge" src="owner.png" alt="Owner badge">
+        <img class="badge" src="moderator.png" alt="Moderator badge">
+        <img class="badge" src="support.png" alt="Supporter badge">
+        <img class="badge" src="verifed-normal.png" alt="Normal Verified badge">
+        <img class="badge" src="verified-extra.png" alt="Extra Verified badge">
+        </div>
         <p class="subtitle">Deine Link-in-Bio Seite</p>
         <div class="notice">
             <span class="notice-icon">⚠️</span>
